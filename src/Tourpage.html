@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Tourpage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+  <!-- Desktop Design -->
+  <div class="hidden md:block">
+    <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img id="logo-H" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+        </div>
+        <nav class="navigation">
+            <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+            <a href="./Hobbypage.html" class="hovertext-gray-300:">hobby</a>
+            <a href="./Tourpage.html" class="font-bold hovertext-gray-300:">Tour</a>
+        </nav>
+    </header>
+      
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-10">
+        <div class="flex flex-col items-center">
+          <img class="lalibela mb-4" src="image/lalibela.jpg" alt="">
+          <p class="visited text-center">Lalibela, the ancient town in Ethiopia, holds a special place in my heart as I have had the incredible opportunity to visit its mesmerizing rock-hewn churches not just once or twice, but three times. The architectural marvels of Lalibela, with their intricate carvings and spiritual significance, draw me back time and again.</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img class="axum mb-4" src="image/axum.jpg" alt="">
+          <p class="unvisited text-center">The Axum Obelisk in Ethiopia is my ultimate dream vacation spot and the source of my greatest wanderlust. My attention has been captivated by the Axum Obelisk. My passion for exploration and discovery is fueled by the desire to stand in the shadow of the Axum Obelisk, take in its grandeur, and comprehend the historical significance it holds. It is a location that captures the spirit of my travel fantasies, not just somewhere I would like to go.</p>
+        </div>
+        <div class="col-span-2 flex justify-center items-center">
+          <audio controls>
+            <source src="audio/Tour.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      
+      </main>
+      
+    <footer class="bg-gray-500 text-white p-4 mt-8">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <address class="text-center">
+                <p class="address">Address</p>
+                <p>Email: redietse23@gmail.com</p>
+                <p>Phone Number: 0952323232</p>
+                <p>Amst Kilo</p>
+            </address>
+            <div>
+                <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+            </div>
+        </div>
+    
+        <div class="flex justify-between mt-4">
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div>
+                <a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</div>
+    <!-- Mobile Design -->
+    <div class="md:hidden"> 
+        <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-H-mobile" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <div id="mobile-menu-button" class="cursor-pointer">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+        </header>
+        <nav id="nav-links" class="navigation hidden">
+            <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+            <a href="./Hobbypage.html" class="hover:text-gray-300">Hobby</a>
+            <a href="./Tourpage.html" class="font-bold hover:text-gray-300">Tour</a>
+        </nav>
+    
+        <main main class="grid grid-rows-3 grid-cols-2 gap-4 m-10">
+            <div class="row-span-1 col-span-1">
+                <img class="lalibela" src="image/lalibela.jpg" alt="Lalibela Image" width="200" height="200">
+            </div>
+            <div class="row-span-1 col-span-1">
+                <p class="visited">Lalibela, the ancient town in Ethiopia, holds a special place in my heart...</p>
+            </div>
+            <div class="row-span-1 col-span-1">
+                <img class="axum" src="image/axum.jpg" alt="Axum Image" width="200" height="200">
+            </div>
+            <div class="row-span-1 col-span-1">
+                <p class="unvisited">The Axum Obelisk in Ethiopia is my ultimate dream vacation spot...</p>
+            </div>
+            <div class="row-span-1 col-span-2">
+                <p class="mb-4">Additional paragraph content goes here...</p>
+                <audio controls class="mb-4">
+                    <source src="audio/Tour.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <ul class="social-icons absolute bottom-0 left-0 mb-4 ml-4">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </main>
+        
+        <footer class="bg-gray-500 text-white p-4 flex justify-between items-center mt-8">
+            <div class="flex items-center">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+                <div>
+                    <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+                </div>
+            </div>
+            <address class="text-right">
+                <p class="address">address</p>
+                <p>Email: redietse23@gmail.com</p>
+                <p>Phone Number: 0952323232</p>
+                <p>Amst Kilo</p>
+            </address>
+        </footer>
+     </div>
+  
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var mobileMenuButton = document.getElementById('mobile-menu-button');
+        var navLinks = document.getElementById('nav-links');
+
+        mobileMenuButton.addEventListener('click', function () {
+            navLinks.classList.toggle('hidden');
+        });
+    });
+</script>
+</body>
+</html>

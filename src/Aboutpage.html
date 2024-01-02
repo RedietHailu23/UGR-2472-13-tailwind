@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="font-sans bg-gray-100">
+    <!-- Desktop Design -->
+<div class="hidden md:block">
+    
+    <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img id="logo-H" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+        </div>
+        <nav class="navigation">
+            <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+            <a href="./Aboutpage.html" class="font-bold hover:text-gray-300" >About me</a>
+            <a href="./skillspage.html" class="hover:text-gray-300">Skills</a>
+            <a href="./projectpage.html" class="hover:text-gray-300">Project</a>
+            <a href="./contactpage.html" class="hover:text-gray-300">Contact me</a>
+        </nav>
+    </header>
+    <main class="container mx-auto mt-8 flex flex-wrap items-center">
+        <div class="w-full md:w-1/2 flex flex-col items-center mb-8 md:mb-0">
+          <img class="w-300 h-300 mb-8" src="image/field_pic.jpg" alt="Field Image">
+          <div class="aboutme bg-white p-4 shadow-md rounded-md">
+            <p>Hello, I am <span class="font-bold">Rediet Hailu.</span> a committed student of software engineering who has a love for volunteering and technology. Outside of the field of coding, I enjoy volunteering because I think it has great power to give back to the community. It's always a pleasure to connect with people thanks to my outgoing personality, whether we're working together on coding projects or having deep discussions. Apart from my desire with technology, I also have an immense fascination with history, and one of my favorite activities is visiting historical sites.</p>
+          </div>
+        </div>
+      
+        <div class="w-full md:w-1/2 flex flex-col items-center mb-8 md:mb-0">
+          <div class="flex flex-col items-center mb-8">
+            <figure class="hobbycaption mb-4">
+              <a href="./Hobbypage.html"><img src="image/basketball_img.jpg" alt="Basketball Image" style="width: 200px; height: 200px;"></a>
+              <figcaption class="mt-2"><a href="./Hobbypage.html">Hobby</a></figcaption>
+            </figure>
+            <figure class="tourcaption">
+              <a href="./Tourpage.html"><img src="image/lalibela.jpg" alt="Lalibela Image" style="width: 200px; height: 200px;"></a>
+              <figcaption class="mt-2"><a href="./Tourpage.html">Tour</a></figcaption>
+            </figure>
+          </div>
+        </div>
+    </main>
+      
+    <footer class="bg-gray-500 text-white p-4 mt-8">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <address class="text-center">
+                <p class="address">Address</p>
+                <p>Email: redietse23@gmail.com</p>
+                <p>Phone Number: 0952323232</p>
+                <p>Amst Kilo</p>
+            </address>
+            <div>
+                <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="flex justify-between mt-4">
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div>
+                <a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</div>
+    <!-- Mobile Design -->
+<div class="md:hidden">
+    
+    <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img id="logo-H-mobile" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+        </div>
+        <div id="mobile-menu-button" class="cursor-pointer">
+            <i class="fa fa-bars fa-2x"></i>
+        </div>
+    </header>
+    <nav id="nav-links" class="navigation hidden">
+        <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+        <a href="./Aboutpage.html" class="font-bold hover:text-gray-300">About me</a>
+        <a href="./skillspage.html" class="hover:text-gray-300">Skills</a>
+        <a href="./projectpage.html" class="hover:text-gray-300">Project</a>
+        <a href="./contactpage.html" class="hover:text-gray-300">Contact me</a>
+    </nav>
+    <main class="container mx-auto mt-8 flex flex-col items-center">
+        <img class="w-200 h-200 mb-8" src="image/field_pic.jpg" alt="Field Image">
+        <div class="aboutme bg-white p-4 shadow-md rounded-md mb-8">
+            <p>Hello, I am <span class="font-bold">Rediet Hailu.</span> a committed student of software engineering who has a love for volunteering and technology. Outside of the field of coding, I enjoy volunteering because I think it has great power to give back to the community. It's always a pleasure to connect with people thanks to my outgoing personality, whether we're working together on coding projects or having deep discussions. Apart from my desire with technology, I also have an immense fascination with history, and one of my favorite activities is visiting historical sites.</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+            <figure class="hobbycaption mb-4">
+                <a href="./Hobbypage.html"><img src="image/basketball_img.jpg" alt="Basketball Image" style="width: 200px; height: 200px;"></a>
+                <figcaption class="mt-2"><a href="./Hobbypage.html">Hobby</a></figcaption>
+            </figure>
+            <figure class="tourcaption">
+                <a href="./Tourpage.html"><img src="image/lalibela.jpg" alt="Lalibela Image" style="width: 200px; height: 200px;"></a>
+                <figcaption class="mt-2"><a href="./Tourpage.html">Tour</a></figcaption>
+            </figure>
+        </div>
+        <ul class="social-icons absolute bottom-0 left-0 mb-4 ml-4">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </main>
+    <footer class="bg-gray-500 text-white p-4 flex justify-between items-center mt-8">
+        <div class="flex items-center">
+            <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            <div>
+                <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+            </div>
+        </div>
+        <address class="text-right">
+            <p class="address">address</p>
+            <p>Email: redietse23@gmail.com</p>
+            <p>Phone Number: 0952323232</p>
+            <p>Amst Kilo</p>
+        </address>
+    </footer>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var mobileMenuButton = document.getElementById('mobile-menu-button');
+        var navLinks = document.getElementById('nav-links');
+
+        mobileMenuButton.addEventListener('click', function () {
+            navLinks.classList.toggle('hidden');
+        });
+    });
+</script>
+</body>
+
+</html>

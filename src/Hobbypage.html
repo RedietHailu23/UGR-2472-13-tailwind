@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Hobbypage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+<!-- Desktop Design -->
+<div class="hidden md:block">
+    <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img id="logo-H" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+        </div>
+        <nav class="navigation">
+            <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+            <a href="./Hobbypage.html" class="font-bold hovertext-gray-300:">hobby</a>
+            <a href="./Tourpage.html" class="hovertext-gray-300:">Tour</a>
+        </nav>
+    </header>
+    <main class="flex flex-wrap items-center p-4">
+        <div class="w-full md:w-1/2 flex flex-col items-center mb-8 md:mb-0">
+          <p class="myhobby mb-4">My favorite hobby has been basketball since I was a teenager. Along the way, the exhilarating sound of the swooshing net and the rhythmic bounce of the ball have consistently provided me with a source of joy and camaraderie in addition to a physical outlet. The court has served as a canvas for my development, both personally and technically, since I first started shooting hoops as a teenager. Basketball is still a timeless pastime that has been with me through the years, whether it's a friendly game with friends or a solo shootaround. It provides not only exercise but also a sense of fulfillment and camaraderie that goes beyond the court.</p>
+      
+          <video class="playing mb-4" width="300" height="300" controls>
+            <source src="video/Basketball_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      
+        <div class="w-full md:w-1/2 flex flex-col items-center">
+          <img class="playing-image mb-4" src="image/download.jpg" alt="Playing Basketball Image" width="400" height="400">
+        </div>
+      </main>
+      
+      
+    <footer class="bg-gray-500 text-white p-4 mt-8">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <address class="text-center">
+                <p class="address">Address</p>
+                <p>Email: redietse23@gmail.com</p>
+                <p>Phone Number: 0952323232</p>
+                <p>Amst Kilo</p>
+            </address>
+            <div>
+                <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="flex justify-between mt-4">
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div>
+                <a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</div>
+    <!-- Mobile Design -->
+    <div class="md:hidden"> 
+        <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-H-mobile" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <div id="mobile-menu-button" class="cursor-pointer">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+        </header>
+        <nav id="nav-links" class="navigation hidden">
+            <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+            <a href="./Hobbypage.html" class="font-bold hover:text-gray-300">Hobby</a>
+            <a href="./Tourpage.html" class="hover:text-gray-300">Tour</a>
+        </nav>
+    
+        <main class="flex flex-col items-center p-4">
+            <p class="myhobby mb-4">My favorite hobby has been basketball since I was a teenager. Along the way, the exhilarating sound of the swooshing net and the rhythmic bounce of the ball have consistently provided me with a source of joy and camaraderie in addition to a physical outlet. The court has served as a canvas for my development, both personally and technically, since I first started shooting hoops as a teenager. Basketball is still a timeless pastime that has been with me through the years, whether it's a friendly game with friends or a solo shootaround. It provides not only exercise but also a sense of fulfillment and camaraderie that goes beyond the court.</p>
+            
+            <img class="playing mb-4" src="image/download.jpg" alt="Playing Basketball Image">
+            
+            <video class="mb-4" width="400" height="360" controls>
+                <source src="video/Basketball_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <ul class="social-icons absolute bottom-0 left-0 mb-4 ml-4">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </main>
+    <footer class="bg-gray-500 text-white p-4 flex justify-between items-center mt-8">
+        <div class="flex items-center">
+            <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            <div>
+                <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+            </div>
+        </div>
+        <address class="text-right">
+            <p class="address">address</p>
+            <p>Email: redietse23@gmail.com</p>
+            <p>Phone Number: 0952323232</p>
+            <p>Amst Kilo</p>
+        </address>
+    </footer>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var mobileMenuButton = document.getElementById('mobile-menu-button');
+        var navLinks = document.getElementById('nav-links');
+
+        mobileMenuButton.addEventListener('click', function () {
+            navLinks.classList.toggle('hidden');
+        });
+    });
+</script>
+</body>
+</html>

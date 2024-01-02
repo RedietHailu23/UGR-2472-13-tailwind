@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Skillspage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+<!-- Desktop Design -->
+<div class="hidden md:block">
+    <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img id="logo-H" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+        </div>
+        <nav class="navigation">
+            <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+            <a href="./Aboutpage.html" class="hover:text-gray-300" >About me</a>
+            <a href="./skillspage.html" class="font-bold hover:text-gray-300">Skills</a>
+            <a href="./projectpage.html" class="hover:text-gray-300">Project</a>
+            <a href="./contactpage.html" class="hover:text-gray-300">Contact me</a>
+        </nav>
+    </header>
+    <main class="main flex flex-col items-center">
+        <table class="border-collapse border">
+          <thead class="head">
+            <tr>
+              <th class="border p-2">Programming language</th>
+              <th class="border p-2">Frameworks</th>
+              <th class="border p-2">Database</th>
+            </tr>
+          </thead>
+          <tbody class="body">
+            <tr>
+              <td class="border p-2">java</td>
+              <td class="border p-2">django</td>
+              <td class="border p-2">mysql</td>
+            </tr>
+            <tr>
+              <td class="border p-2">python</td>
+              <td class="border p-2">react</td>
+              <td class="border p-2">mongodb</td>
+            </tr>
+            <tr>
+              <td class="border p-2">c++</td>
+              <td class="border p-2">angular</td>
+              <td class="border p-2">nosql</td>
+            </tr>
+          </tbody>
+        </table>
+      
+        <table class="mt-4 border-collapse border">
+          <thead>
+            <tr>
+              <th class="border p-2">extracurricular</th>
+              <th class="border p-2">website development</th>
+              <th class="border p-2">Design tools</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border p-2">cooking</td>
+              <td class="border p-2">Html</td>
+              <td class="border p-2">Figma</td>
+            </tr>
+            <tr>
+              <td class="border p-2">leadership</td>
+              <td class="border p-2">CSS</td>
+              <td class="border p-2">drawio</td>
+            </tr>
+            <tr>
+              <td class="border p-2">Tutor</td>
+              <td class="border p-2">javascript</td>
+              <td class="border p-2">Canva</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+      
+    <footer class="bg-gray-500 text-white p-4 mt-8">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <address class="text-center">
+                <p class="address">Address</p>
+                <p>Email: redietse23@gmail.com</p>
+                <p>Phone Number: 0952323232</p>
+                <p>Amst Kilo</p>
+            </address>
+            <div>
+                <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="flex justify-between mt-4">
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div>
+                <a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</div>
+    <!-- Mobile Design -->
+    <div class="md:hidden"> 
+        <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-H-mobile" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <div id="mobile-menu-button" class="cursor-pointer">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+        </header>
+        <nav id="nav-links" class="navigation hidden">
+            <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+            <a href="./Aboutpage.html" class="hover:text-gray-300">About me</a>
+            <a href="./skillspage.html" class="font-bold hover:text-gray-300">Skills</a>
+            <a href="./projectpage.html" class="hover:text-gray-300">Project</a>
+            <a href="./contactpage.html" class="hover:text-gray-300">Contact me</a>
+        </nav>
+    
+        <main class="container mx-auto mt-8 p-4 flex flex-col items-center">
+
+            <table class="mb-8">
+                <thead class="head">
+                    <tr>
+                        <th class="border p-2">Category</th>
+                        <th class="border p-2">Details</th>
+                    </tr>
+                </thead>
+                <tbody class="body">
+                    <tr class="border-b">
+                        <td class="border p-2">Programming Language</td>
+                        <td class="border p-2 w-1/2">
+                            <ul class="list-disc pl-4">
+                                <li>Java (Django)</li>
+                                <li>Python (React)</li>
+                                <li>C++ (Angular)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="border p-2">Database</td>
+                        <td class="border p-2 w-1/2">
+                            <ul class="list-disc pl-4">
+                                <li>MySQL</li>
+                                <li>MongoDB</li>
+                                <li>NoSQL</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="border p-2">Extracurricular</td>
+                        <td class="border p-2 w-1/2">
+                            <ul class="list-disc pl-4">
+                                <li>Cooking</li>
+                                <li>Leadership</li>
+                                <li>Tutor</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="border p-2">Website Development</td>
+                        <td class="border p-2 w-1/2">
+                            <ul class="list-disc pl-4">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">Design Tools</td>
+                        <td class="border p-2 w-1/2">
+                            <ul class="list-disc pl-4">
+                                <li>Figma</li>
+                                <li>Drawio</li>
+                                <li>Canva</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <ul class="social-icons flex flex-col absolute left-0 bottom-0 mb-4 ml-4">
+                <li class="mb-2"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li class="mb-2"><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+    
+        </main>
+        <footer class="bg-gray-500 text-white p-4 flex justify-between items-center mt-8">
+            <div class="flex items-center">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+                <div>
+                    <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+                </div>
+            </div>
+            <address class="text-right">
+                <p class="address">address</p>
+                <p>Email: redietse23@gmail.com</p>
+                <p>Phone Number: 0952323232</p>
+                <p>Amst Kilo</p>
+            </address>
+        </footer>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var mobileMenuButton = document.getElementById('mobile-menu-button');
+        var navLinks = document.getElementById('nav-links');
+
+        mobileMenuButton.addEventListener('click', function () {
+            navLinks.classList.toggle('hidden');
+        });
+    });
+</script>
+</body>
+</html>

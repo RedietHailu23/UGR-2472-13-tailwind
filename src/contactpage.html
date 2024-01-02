@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="font-sans bg-gray-100">
+    <!-- Desktop Design -->
+    <div class="hidden md:block">
+        <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-H" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <nav class="navigation">
+                <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+                <a href="./Aboutpage.html" class="hover:text-gray-300">About me</a>
+                <a href="./skillspage.html" class="hover:text-gray-300">Skills</a>
+                <a href="./projectpage.html" class="hover:text-gray-300">Project</a>
+                <a href="./contactpage.html" class="font-bold hover:text-gray-300">Contact me</a>
+            </nav>
+        </header>
+        <main class="container mx-auto mt-8 flex flex-col items-center p-20 relative">
+            <form id="contactForm" class="border-box bg-white p-8 rounded-md shadow-md">
+                <div class="mb-4">
+                    <input type="text" placeholder="Name" class="border p-2 w-full" required>
+                </div>
+
+                <div class="mb-4">
+                    <input type="email" placeholder="Email" class="border p-2 w-full" required>
+                </div>
+
+                <div class="mb-4">
+                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Message"
+                        class="border p-2 w-full"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" id="submit" value="Submit"
+                        class="bg-gray-500 text-white px-4 py-2 rounded-md cursor-pointer">
+                </div>
+            </form>
+            <p class="contact-me">For further more details feel free to contact me. I will be in touch with as soon as
+                possible. Send me your message anytime, and I will reach you. You can also contact me on Instagram,
+                LinkedIn, and Facebook.
+            </p>
+        </main>
+        <footer class="bg-gray-500 text-white p-4 mt-8">
+            <div class="flex justify-between items-center mx-auto max-w-screen-xl">
+                <div class="flex items-center">
+                    <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+                </div>
+                <address class="text-center">
+                    <p class="address">Address</p>
+                    <p>Email: redietse23@gmail.com</p>
+                    <p>Phone Number: 0952323232</p>
+                    <p>Amst Kilo</p>
+                </address>
+                <div>
+                    <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="flex justify-between mt-4 mx-auto max-w-screen-xl">
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div>
+                    <a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Mobile Design -->
+    <div class="md:hidden">
+        <header class="bg-gray-500 text-white p-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img id="logo-H-mobile" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+            </div>
+            <div id="mobile-menu-button" class="cursor-pointer">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+        </header>
+        <nav id="nav-links" class="navigation hidden">
+            <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+            <a href="./Aboutpage.html" class="hover:text-gray-300">About me</a>
+            <a href="./skillspage.html" class="hover:text-gray-300">Skills</a>
+            <a href="./projectpage.html" class="hover:text-gray-300">Project</a>
+            <a href="./contactpage.html" class="font-bold hover:text-gray-300">Contact me</a>
+        </nav>
+        <main class="container mx-auto mt-8 flex flex-col items-center p-20 relative">
+            <form id="contactFormMobile" class="border-box bg-white p-8 rounded-md shadow-md">
+                <div class="mb-4">
+                    <input type="text" placeholder="Name" class="border p-2 w-full" required>
+                </div>
+
+                <div class="mb-4">
+                    <input type="email" placeholder="Email" class="border p-2 w-full" required>
+                </div>
+
+                <div class="mb-4">
+                    <textarea name="feedback" id="feedbackMobile" cols="30" rows="10" placeholder="Message"
+                        class="border p-2 w-full"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" id="submitMobile" value="Submit"
+                        class="bg-gray-500 text-white px-4 py-2 rounded-md cursor-pointer">
+                </div>
+            </form>
+            <p class="contact-me">For further more details feel free to contact me. I will be in touch with as soon as
+                possible. Send me your message anytime, and I will reach you. You can also contact me on Instagram,
+                LinkedIn, and Facebook.</p>
+            <ul class="social-icons absolute bottom-0 left-0 mb-4 ml-4">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/redu.hailu.37/" target="_blank"><i
+                            class="fa fa-instagram"></i></a></li>
+            </ul>
+        </main>
+        <footer class="bg-gray-500 text-white p-4 flex justify-between items-center mt-8">
+            <div class="flex items-center">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60" class="mr-4">
+                <div>
+                    <p class="mb-2">&copy; 2023 Rediet Hailu. All rights reserved.</p>
+                </div>
+            </div>
+            <address class="text-right">
+                <p class="address">address</p>
+                <p>Email: redietse23@gmail.com</p>
+                <p>Phone Number: 0952323232</p>
+                <p>Amst Kilo</p>
+            </address>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var mobileMenuButton = document.getElementById('mobile-menu-button');
+            var navLinks = document.getElementById('nav-links');
+    
+            mobileMenuButton.addEventListener('click', function () {
+                navLinks.classList.toggle('hidden');
+            });
+    
+            var contactForm = document.getElementById('contactForm');
+    
+            contactForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+    
+                var userMessage = document.getElementById('feedback').value;
+                alert('Your message is submitted:\n\n' + userMessage);
+
+                location.reload();
+            });
+    
+            var contactFormMobile = document.getElementById('contactFormMobile');
+    
+            contactFormMobile.addEventListener('submit', function (event) {
+                event.preventDefault();
+    
+                var userMessageMobile = document.getElementById('feedbackMobile').value;
+                alert('Your message is submitted');
+                location.reload();
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
